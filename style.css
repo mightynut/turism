@@ -150,6 +150,18 @@ ul, li{
 	padding-top: 15px;
 }
 
+#b1:hover{
+	cursor: pointer;
+	transform: scale(1.1);
+	background-color: #6da5ff;
+}
+
+#b2:hover{
+	cursor: pointer;
+	transform: scale(1.1);
+	background-color: #49ff68;
+}
+
 
 @media(max-width: 770px)
 {
