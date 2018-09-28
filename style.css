@@ -27,6 +27,11 @@ ul, li{
 
 .menu__item a{
 	color: #969696;
+	text-decoration: none;
+}
+
+.menu__item a:hover{
+	color: #0477e0;
 }
 
 #b1{
@@ -46,9 +51,9 @@ ul, li{
 
 .titul{
 	text-align: center;
-	background: url(img/layer3.png) center top / cover;
+	background: url(img/layer3.png);
 	background-repeat: no-repeat;
-	/*background-size: cover;*/
+	background-size: cover;
 }
 
 .tit1{
@@ -116,6 +121,14 @@ ul, li{
     align-items: center;
 }
 
+.cl a{
+	text-decoration: none;
+}
+
+.cl p:hover{
+	color: #0477e0;
+}
+
 .txt{
 	font-size: 30px;
 	color: #969696;
@@ -131,6 +144,18 @@ ul, li{
 	text-align: center;
 	margin-bottom: 80px;
 	margin-top: 60px;
+}
+
+.b1 a{
+	text-decoration: none;
+}
+
+.b1 p{
+	font-size: 30px;
+}
+
+.b1 p:hover{
+	color: #0477e0;
 }
 
 .txt__item{
